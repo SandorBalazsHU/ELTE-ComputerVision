@@ -173,8 +173,11 @@
   <ItemGroup>
     <ClInclude Include="Contouring.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Recognition.h" />
+    <ClInclude Include="Recognising.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Solving.h" />
+    <ClInclude Include="Visualising.cpp" />
+    <ClInclude Include="Visualising.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Contouring.cpp" />
@@ -184,8 +187,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Recognition.cpp" />
+    <ClCompile Include="Recognising.cpp" />
     <ClCompile Include="RubickSolver.cpp" />
+    <ClCompile Include="Solving.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RubickSolver.rc" />

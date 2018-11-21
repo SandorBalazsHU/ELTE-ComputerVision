@@ -13,19 +13,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\processing">
+      <UniqueIdentifier>{251dd644-e6d9-47df-823e-7a15912f6bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\processing">
+      <UniqueIdentifier>{5ee4cf7d-3588-4ed7-8297-e7b1f576d714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\solving">
+      <UniqueIdentifier>{f4fef24c-362d-4dae-9824-e6a5552251c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\solving">
+      <UniqueIdentifier>{c4308ff9-27b8-4f63-9baf-59e112e64d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\visualising">
+      <UniqueIdentifier>{9a232150-a879-4699-b66c-f031a5a21c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visualising">
+      <UniqueIdentifier>{e0dd3035-24cf-4dcd-95c8-f043af22e88a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Contouring.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Recognition.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Contouring.h">
+      <Filter>Header Files\processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Recognising.h">
+      <Filter>Header Files\processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Solving.h">
+      <Filter>Header Files\solving</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualising.cpp">
+      <Filter>Source Files\visualising</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualising.h">
+      <Filter>Header Files\visualising</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -36,10 +63,13 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Contouring.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\processing</Filter>
     </ClCompile>
-    <ClCompile Include="Recognition.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Recognising.cpp">
+      <Filter>Source Files\processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Solving.cpp">
+      <Filter>Source Files\solving</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
